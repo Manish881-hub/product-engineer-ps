@@ -1,0 +1,5 @@
+{
+  "checkout-api": {"state": "degraded", "detail": "authorize path failing; dependency payments-worker not responding"},
+  "payments-worker": {"state": "down", "detail": "crash-looping since 10:01Z; db primary unreachable"},
+  "inventory-svc": {"state": "healthy", "detail": "all checks passing"}
+}

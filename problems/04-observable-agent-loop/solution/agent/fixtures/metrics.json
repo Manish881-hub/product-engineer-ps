@@ -1,0 +1,12 @@
+{
+  "checkout-api": {
+    "error_rate": {"5m": 14.1, "15m": 12.4, "1h": 6.8, "unit": "percent"},
+    "latency_p95_ms": {"5m": 1950, "15m": 1800, "1h": 1200, "unit": "ms"},
+    "throughput_rps": {"5m": 88, "15m": 91, "1h": 97, "unit": "rps"}
+  },
+  "inventory-svc": {
+    "error_rate": {"5m": 0.2, "15m": 0.3, "1h": 0.2, "unit": "percent"},
+    "latency_p95_ms": {"5m": 41, "15m": 38, "1h": 40, "unit": "ms"},
+    "throughput_rps": {"5m": 120, "15m": 118, "1h": 121, "unit": "rps"}
+  }
+}

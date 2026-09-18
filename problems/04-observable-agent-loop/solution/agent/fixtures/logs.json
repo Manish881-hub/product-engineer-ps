@@ -1,0 +1,18 @@
+{
+  "checkout-api": [
+    {"ts": "2026-09-17T10:02:11Z", "level": "ERROR", "msg": "upstream timeout calling payments-worker during order authorize (order_id=ord_8812)"},
+    {"ts": "2026-09-17T10:03:02Z", "level": "ERROR", "msg": "upstream timeout calling payments-worker during order authorize (order_id=ord_8819)"},
+    {"ts": "2026-09-17T10:04:44Z", "level": "WARN", "msg": "retry 2/3 authorize via payments-worker failed: context deadline exceeded"},
+    {"ts": "2026-09-17T10:05:10Z", "level": "INFO", "msg": "health check ok: inventory-svc reachable, 42ms"},
+    {"ts": "2026-09-17T10:06:31Z", "level": "ERROR", "msg": "checkout authorize error budget burn: 12% failures in 15m"}
+  ],
+  "payments-worker": [
+    {"ts": "2026-09-17T10:01:55Z", "level": "ERROR", "msg": "db connection refused: primary postgres unreachable (pool exhausted)"},
+    {"ts": "2026-09-17T10:02:40Z", "level": "ERROR", "msg": "authorize worker crashing: restart loop, backoff 30s"},
+    {"ts": "2026-09-17T10:05:58Z", "level": "INFO", "msg": "liveness probe failing since 10:01Z"}
+  ],
+  "inventory-svc": [
+    {"ts": "2026-09-17T10:05:10Z", "level": "INFO", "msg": "stock lookup ok, p95 38ms"},
+    {"ts": "2026-09-17T10:06:00Z", "level": "INFO", "msg": "no elevated errors in 1h"}
+  ]
+}

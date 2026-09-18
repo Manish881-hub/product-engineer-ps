@@ -1,0 +1,10 @@
+{
+  "checkout-timeout": {
+    "title": "Checkout authorize timeouts runbook",
+    "body": "If checkout-api logs show upstream timeouts to payments-worker: 1) confirm payments-worker status is down/degraded, 2) check its db dependency, 3) do NOT raise checkout timeouts blindly — shed authorize retries to 1 and page payments on-call."
+  },
+  "payment-retries": {
+    "title": "Payment authorize retry policy",
+    "body": "Authorize retries are capped at 3 with backoff; repeated context-deadline-exceeded means the downstream worker is saturated or down — stop retrying and fail open to the queued-payments flow."
+  }
+}
