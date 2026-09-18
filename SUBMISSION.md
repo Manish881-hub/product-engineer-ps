@@ -6,7 +6,7 @@
 - **Email:** manishbhakti881@gmail.com
 - **GitHub:** Manish881-hub
 - **Selected problem:** Problem 4 — Observable Agent Loop
-- **Demo video:** [TBD — 3–5 min screen recording; record after final test run]
+- **Demo video:** https://drive.google.com/file/d/1S18Tv17LjA6N1iceHGr8bH2b30DB8TVN/view?usp=drive_link
 
 ## Run the project
 
