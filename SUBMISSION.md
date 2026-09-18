@@ -3,7 +3,7 @@
 ## Candidate
 
 - **Name:** Manish Bhakti Sagar
-- **Email:** [same address that received the Caygnus assignment — fill before submitting]
+- **Email:** manishbhakti881@gmail.com
 - **GitHub:** Manish881-hub
 - **Selected problem:** Problem 4 — Observable Agent Loop
 - **Demo video:** [TBD — 3–5 min screen recording; record after final test run]
